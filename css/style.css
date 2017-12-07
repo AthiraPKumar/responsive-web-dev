@@ -1,0 +1,102 @@
+body{
+	background:#ccc url(../images/sos.png) repeat;
+	font-size: 87.5%;
+	font-family:arial, sans-serif;
+	color:#666666;
+	line-height:1.7em;
+	text-align: left;
+}
+a{
+	text-decoration: none;
+	color:blue;
+}
+a:hover{
+	color: darkgrey;
+}
+h2{
+	color:black;
+}
+.clr{
+	clear: both;
+}
+
+/* creating a fluid layout -- use % insted of px for width */
+#container{
+	width:80%;
+	margin:0 auto;
+	overflow: auto;
+	clear: both;
+}
+.main-header #logo{
+	width:45%;
+	margin:10px 0;
+}
+.main-header .main-nav{
+	background:#882433; 
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid grey; 
+}
+.main-header .main-nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0; 
+}
+.main-header .main-nav li{
+	color: #ffffff;
+	display: inline;
+	float: left;
+	margin-right: 3px;
+}
+.main-header .main-nav li a{
+	color: #ffffff;
+	display: inline-block;
+	padding: 10px 20px;
+	height: 20px;
+}
+.main-header .main-nav li a:hover,.main-header .main-nav li a.active{
+	background-color: #ccc;
+	color: black;
+	border-radius: 5px;
+}
+#content{
+	width: 70%;
+	float: left;
+	overflow: auto;
+}
+#content article{
+	border-radius: 5px;
+	overflow: auto;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+#content article span{
+	font-style: italic;
+	color: #000; 
+}
+#sidebar{
+	width:30%;
+	float:left;
+}
+#sidebar .block{
+	border-radius: 5px;
+	overflow: auto;
+	background-color: #ffffff;
+	padding: 10px 15px;
+	margin: 10px 0 0 10px;
+}
+
+footer{
+	background-color: #882433;
+	height: 40px;
+	border:2px solid #ccc;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+footer p{
+	color: #fff;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
