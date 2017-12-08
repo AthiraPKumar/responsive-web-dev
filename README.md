@@ -5,7 +5,7 @@ Resproject HTML5-CSS3 Framework
 This project is made up of HTML5-CSS3 framework.This can be even used as a template.
 
 The responsveness is maintained using the media queries.
-the animation effect for logo, navbar & content is produced using the css3 transition effects.
+The animation effect for logo, navbar & content is produced using the CSS3 transition effects.
 
 
  
