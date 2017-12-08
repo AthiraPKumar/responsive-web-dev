@@ -1,3 +1,5 @@
+/* created by Athira P.Kumar */
+/* also css transition added near the break point */
 body{
 	background:#ccc url(../images/sos.png) repeat;
 	font-size: 87.5%;
@@ -30,6 +32,8 @@ h2{
 .main-header #logo{
 	width:45%;
 	margin:10px 0;
+	display: block;
+	transition: width 2s;
 }
 .main-header .main-nav{
 	background:#882433; 
@@ -63,6 +67,7 @@ h2{
 	width: 70%;
 	float: left;
 	overflow: auto;
+	transform: width 1s;
 }
 #content article{
 	border-radius: 5px;
@@ -112,6 +117,7 @@ footer p{
 		margin:0 auto;
 		display: block;
 		width:65%;
+		transition: width 2s;
 	}
 	#content{
 		width:100%;
@@ -123,6 +129,10 @@ footer p{
 	}
 	#sidebar .block{
 		margin-left:0;
+	}
+	.main-header .main-nav{
+		display: block;
+		transition: height 1s;
 	}
 }
 
@@ -142,6 +152,7 @@ footer p{
 		display: block;
 		width: 99%;
 		overflow: auto;
+		transition: width 1s;
 	}
 	.main-header .main-nav ul{
 		padding: 2% 1%;
